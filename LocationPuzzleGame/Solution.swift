@@ -12,15 +12,11 @@ import CoreLocation
 class Solution {
     var location : CLLocation
     let answer : String
-    let manager = CLLocationManager()
     
-    init(location : CLLocation, answer : String) {
+    init(location : CLRegion, answer : String) {
         self.location = location
         self.answer = answer
     }
-    
-    
-    
     
 }
     
