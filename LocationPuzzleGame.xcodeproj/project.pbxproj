@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56483E9D1A7391D200B08C46 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56483E9C1A7391D200B08C46 /* Solution.swift */; };
 		70B159241A734BEB00F29535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B159231A734BEB00F29535 /* AppDelegate.swift */; };
 		70B159271A734BEB00F29535 /* LocationPuzzleGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70B159251A734BEB00F29535 /* LocationPuzzleGame.xcdatamodeld */; };
 		70B159291A734BEB00F29535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B159281A734BEB00F29535 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56483E9C1A7391D200B08C46 /* Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		70B1591E1A734BEB00F29535 /* LocationPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B159221A734BEB00F29535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70B159231A734BEB00F29535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				70B159231A734BEB00F29535 /* AppDelegate.swift */,
 				70B159281A734BEB00F29535 /* ViewController.swift */,
 				70B1592A1A734BEB00F29535 /* Main.storyboard */,
+				56483E9C1A7391D200B08C46 /* Solution.swift */,
 				70B1592D1A734BEB00F29535 /* Images.xcassets */,
 				70B1592F1A734BEB00F29535 /* LaunchScreen.xib */,
 				70B159251A734BEB00F29535 /* LocationPuzzleGame.xcdatamodeld */,
@@ -249,6 +252,7 @@
 				70B1594D1A73832400F29535 /* Message.swift in Sources */,
 				70B1594F1A738BA100F29535 /* Hint.swift in Sources */,
 				70B159471A736C4100F29535 /* Mission.swift in Sources */,
+				56483E9D1A7391D200B08C46 /* Solution.swift in Sources */,
 				70B159241A734BEB00F29535 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
