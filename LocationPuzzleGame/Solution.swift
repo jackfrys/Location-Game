@@ -10,7 +10,7 @@ import Foundation
 import CoreLocation
 
 class Solution {
-    var location : CLLocation
+    var location : CLRegion
     let answer : String
     
     init(location : CLRegion, answer : String) {
