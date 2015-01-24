@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56483E9D1A7391D200B08C46 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56483E9C1A7391D200B08C46 /* Solution.swift */; };
+		56483EA11A73D5BE00B08C46 /* CoreLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56483EA01A73D5BE00B08C46 /* CoreLocationController.swift */; };
 		70B159241A734BEB00F29535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B159231A734BEB00F29535 /* AppDelegate.swift */; };
 		70B159271A734BEB00F29535 /* LocationPuzzleGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70B159251A734BEB00F29535 /* LocationPuzzleGame.xcdatamodeld */; };
 		70B159291A734BEB00F29535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B159281A734BEB00F29535 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		56483E9C1A7391D200B08C46 /* Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		56483EA01A73D5BE00B08C46 /* CoreLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationController.swift; sourceTree = "<group>"; };
 		70B1591E1A734BEB00F29535 /* LocationPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B159221A734BEB00F29535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70B159231A734BEB00F29535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				70B159231A734BEB00F29535 /* AppDelegate.swift */,
 				70B159281A734BEB00F29535 /* ViewController.swift */,
+				56483EA01A73D5BE00B08C46 /* CoreLocationController.swift */,
 				70B1592A1A734BEB00F29535 /* Main.storyboard */,
 				56483E9C1A7391D200B08C46 /* Solution.swift */,
 				70B1592D1A734BEB00F29535 /* Images.xcassets */,
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56483EA11A73D5BE00B08C46 /* CoreLocationController.swift in Sources */,
 				70B1594A1A736D1500F29535 /* Puzzle.swift in Sources */,
 				70B159291A734BEB00F29535 /* ViewController.swift in Sources */,
 				70B159271A734BEB00F29535 /* LocationPuzzleGame.xcdatamodeld in Sources */,
